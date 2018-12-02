@@ -1,0 +1,69 @@
+.main_container {
+    margin: 0 15%;
+    padding: 100px;
+}
+.main_headings {
+    color: black;
+    width: 100%;
+}
+.main_headings p::first-line {
+    font-size: 7rem;
+}
+.main_headings p {
+    font-size: 3rem;
+    line-height: 9rem;
+}
+@media (min-width: 350px) and (max-width: 800px) {
+    .main_container {
+        margin: 1.5% !important;
+        padding: 30px;
+    }
+    .main_headings p::first-line {
+        font-size: 2rem;
+}
+    .main_headings p {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .main_headings p span {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    textarea {
+        height: 20vh !important;
+    }
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+    .main_container {
+        margin: 0;
+        padding: 50px;
+    }
+    .main_headings p::first-line {
+        font-size: 3.3rem;
+}
+    .main_headings p {
+        font-size: 2.5rem;
+        line-height: 6rem;
+    }
+    .main_headings p span {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1800px){
+    .main_container {
+        margin: 15%;
+        padding: 0px;
+    }
+    .main_headings p::first-line {
+        font-size: 3.5rem;
+}
+    .main_headings p {
+        font-size: 2.8rem;
+        line-height: 6rem;
+    }
+    .main_headings p span {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}

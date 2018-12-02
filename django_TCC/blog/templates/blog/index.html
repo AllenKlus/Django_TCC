@@ -1,0 +1,18 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+
+{% for posts in Post %}
+
+<div class="bp_container">
+    <div class="bp">
+        <div class='border_container'>
+            <h2>{{ posts.title }}</h2>
+            <span>{{ posts.author }} / {{ posts.date_posted|date:'F d, Y' }}</span>
+        </div>
+        <p>{{ posts.content }}</p>
+    </div>
+</div>
+
+{% endfor %}
+
+{% endblock content %}

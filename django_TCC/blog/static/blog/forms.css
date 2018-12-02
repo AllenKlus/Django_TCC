@@ -1,0 +1,27 @@
+#form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e74c3c;
+    padding: 25px 0;
+}
+
+#bg_form {
+    background-color: #c0392b;
+    box-shadow: 0 0 10px 1px #8b0000;
+    border-radius: 2.5%;
+    margin: 2%;
+    padding: 20px;
+}
+
+#contact_form {
+    background-color: darkred;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+@media (min-width: 200px) and (max-width: 1200px) {
+    textarea {
+        height: 20vh !important;
+    }
+}

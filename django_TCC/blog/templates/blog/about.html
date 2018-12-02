@@ -1,0 +1,41 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+{% load static %}
+<div id="profile_container">
+    <div id='profile_items_container'>
+        <img src="{% static 'blog/xmas.jpg' %}" class='profile'>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis tempore sequi unde impedit eius et alias soluta neque perspiciatis. Vel hic asperiores repellendus necessitatibus doloremque error vitae similique? Ullam corporis autem corrupti adipisci! Voluptatum.</p>
+    </div>
+</div>
+<aside>
+    <div id='aside_container'>
+        <div class='aside_items'>
+            <div id='descrip'>
+                <h2>TheCasualCoder is all about...</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellat tempora placeat repellendus labore dicta recusandae laborum! Adipisci, earum. Illum commodi quisquam quae eaque architecto libero ad ratione cupiditate, nemo error ducimus asperiores rem facere harum molestias magnam reiciendis labore aspernatur excepturi, sapiente impedit praesentium vitae ipsam atque. Culpa, blanditiis.</p>
+            </div>
+            <div id='thumb_container'>
+
+                <a href='https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5' target='_blank'><div class='thumb_items'>
+                    
+                    <img src="{% static 'blog/HTML5_logo.svg' %}" class='pics'>
+
+                </div></a>
+
+                <a href='https://www.python.org/' target='_blank'><div class='thumb_items'>
+                    
+                    <img src="{% static 'blog/python.svg' %}" class='pics'>
+                    
+                </div></a>
+
+                <a href='https://www.w3schools.com/css/' target='_blank'><div class='thumb_items'>
+                
+                    <img src="{% static 'blog/css3.svg' %}" class='pics'>
+
+                </div></a>
+            </div>
+        </div>
+    </div>
+</aside>
+
+{% endblock content %}
